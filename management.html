@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khaana – Management Team</title>
+    <style>
+        body {
+            background-color: #fefefe;
+            font-family: Segoe UI, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            font-family: Georgia, sans-serif;
+            color: blue;
+            text-align: center;
+        }
+        h2 {
+            color: darkgoldenrod;
+            font-size: 22px;
+        }
+        h3 {
+            color: darkgoldenrod;
+            font-size: 18px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .highlight {
+            color: blue;
+            font-style: italic;
+        }
+        .emphasis {
+            color: goldenrod;
+            font-weight: bold;
+        }
+        .team-member {
+            margin-bottom: 40px;
+        }
+        /* Main leader images */
+        .team-member > img {
+            width: 250px;
+            max-width: 70%;
+            border-radius: 12px;
+            display: block;
+            margin: 10px auto 5px auto;
+        }
+        /* Manager-level sections */
+        .manager-indent {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .manager-info {
+            flex: 1 1 250px;
+        }
+        .manager-info img {
+            width: 200px;
+            max-width: 100%;
+            border-radius: 12px;
+            display: block;
+            margin: 10px auto 5px auto;
+        }
+        .direct-reports-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            flex: 2 1 400px;
+        }
+        .direct-report {
+            background-color: #f2f2f2;
+            padding: 8px;
+            border-radius: 12px;
+            text-align: center;
+            width: 140px;
+        }
+        .direct-report img {
+            width: 120px;
+            border-radius: 12px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .direct-reports-label {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        hr {
+            border: 1px solid blue;
+            margin: 40px 0;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            text-align: center;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<h1><u>Our Management Team</u></h1>
+
+<p>At <span class="highlight">Khaana</span>, leadership is about vision, responsibility, and passion. Our team combines decades of experience in <i>foodservice, technology, and logistics</i> to deliver healthy meals to your doorstep.</p>
+
+<!-- CEO -->
+<div class="team-member">
+    <h2>Jane Smith – <span class="emphasis">Chief Executive Officer</span></h2>
+    <img src="ceo.jpg" alt="Jane Smith – Chief Executive Officer">
+    <p>Jane founded Khaana in 2020 to make <b>ready-to-eat meal delivery</b> accessible and affordable. She oversees company strategy, marketing, and finance, ensuring the organization stays aligned with its vision and continues to innovate in the foodservice sector.</p>
+    <ul>
+        <li>Over 20 years in hospitality and business management</li>
+        <li>Leads partnerships with local suppliers</li>
+        <li>Guides company vision and leadership</li>
+    </ul>
+</div>
+
+<hr>
+
+<!-- CTO -->
+<div class="team-member">
+    <h2>Brian Jones – <span class="emphasis">Chief Technology Officer</span></h2>
+    <img src="cto.jpg" alt="Brian Jones – Chief Technology Officer">
+    <p>Brian drives Khaana’s <i>technology innovations</i>, overseeing our ordering platform and delivery optimization. He ensures that our digital systems are secure, scalable, and provide a seamless experience for our customers.</p>
+
+    <!-- Managers and Direct Reports -->
+    <div class="manager-indent">
+        <div class="manager-info">
+            <h3>Callie Hekter – IT Security Manager</h3>
+            <img src="itsecurity.jpg" alt="Callie Hekter – IT Security Manager">
+            <p>Callie leads our cybersecurity efforts, safeguarding company data and customer information while training staff on security best practices.</p>
+        </div>
+        <div class="direct-reports-container">
+            <div class="direct-reports-label">Direct Reports</div>
+            <div class="direct-report">
+                <img src="network.jpg" alt="Cody Weinman – Network Security Specialist">
+                <p>Cody Weinman – Network Security Specialist</p>
+                <p>Monitors network infrastructure and helps prevent cyber threats.</p>
+            </div>
+            <div class="direct-report">
+                <img src="compliance.jpg" alt="Lauren Daniels – Compliance & Risk Analyst">
+                <p>Lauren Daniels – Compliance & Risk Analyst</p>
+                <p>Ensures regulatory compliance and risk assessment for all IT operations.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="manager-indent">
+        <div class="manager-info">
+            <h3>Sydney Arias – Software Development Manager</h3>
+            <img src="softwaredev.jpg" alt="Sydney Arias – Software Development Manager">
+            <p>Sydney oversees the development of Khaana’s website and app platforms, ensuring a seamless user experience and implementing new features that enhance customer engagement.</p>
+        </div>
+        <div class="direct-reports-container">
+            <div class="direct-reports-label">Direct Reports</div>
+            <div class="direct-report">
+                <img src="frontend.jpg" alt="Emily Miller – Front-End Developer">
+                <p>Emily Miller – Front-End Developer</p>
+                <p>Implements the visual and interactive elements of the Khaana platform.</p>
+            </div>
+            <div class="direct-report">
+                <img src="backend.jpg" alt="Ja'Kaila Clay – Back-End Developer">
+                <p>Ja'Kaila Clay – Back-End Developer</p>
+                <p>Develops and maintains server-side logic and database integration.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<!-- Head of Operations -->
+<div class="team-member">
+    <h2>Jennifer Brown – <span class="emphasis">Head of Operations</span></h2>
+    <img src="operations.jpg" alt="Jennifer Brown – Head of Operations">
+    <p>Jennifer ensures Khaana’s daily operations run smoothly, focusing on logistics, kitchen management, and delivery efficiency. She coordinates teams to maintain high standards of quality and timely delivery for all customers.</p>
+    <ul>
+        <li>Manages logistics, kitchen staff, and quality assurance</li>
+        <li>Oversees scheduling, food preparation, and packaging</li>
+    </ul>
+
+    <div class="manager-indent">
+        <div class="manager-info">
+            <h3>Brooke Young – Logistics Manager</h3>
+            <img src="logistics.jpg" alt="Brooke Young – Logistics Manager">
+            <p>Brooke manages all delivery operations, ensuring routes are efficient and drivers are well-coordinated.</p>
+        </div>
+        <div class="direct-reports-container">
+            <div class="direct-reports-label">Direct Reports</div>
+            <div class="direct-report">
+                <img src="delivery.jpg" alt="Kristin Bahr – Delivery Supervisor">
+                <p>Kristin Bahr – Delivery Supervisor</p>
+                <p>Oversees delivery team and ensures timely drop-offs to customers.</p>
+            </div>
+            <div class="direct-report">
+                <img src="fleet.jpg" alt="Daniel Anton – Fleet Coordinator">
+                <p>Daniel Anton – Fleet Coordinator</p>
+                <p>Maintains the company fleet and manages vehicle scheduling.</p>
+            </div>
+            <div class="direct-report">
+                <img src="route.jpg" alt="Ryan James – Route Planner">
+                <p>Ryan James – Route Planner</p>
+                <p>Plans efficient delivery routes and manages logistics data.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="manager-indent">
+        <div class="manager-info">
+            <h3>Lance Alston – Kitchen Manager</h3>
+            <img src="kitchen.jpg" alt="Lance Alston – Kitchen Manager">
+            <p>Lance leads the kitchen team to prepare meals efficiently and maintain high food quality standards, ensuring customer satisfaction.</p>
+        </div>
+        <div class="direct-reports-container">
+            <div class="direct-reports-label">Direct Reports</div>
+            <div class="direct-report">
+                <img src="chef.jpg" alt="Francesca Demorizi – Head Chef">
+                <p>Francesca Demorizi – Head Chef</p>
+                <p>Supervises meal preparation and manages kitchen staff.</p>
+            </div>
+            <div class="direct-report">
+                <img src="prep.jpg" alt="Alexander Bull – Prep Supervisor">
+                <p>Alexander Bull – Prep Supervisor</p>
+                <p>Prepares ingredients and assists with kitchen workflow management.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="manager-indent">
+        <div class="manager-info">
+            <h3>Colin Freeman – Quality Assurance Manager</h3>
+            <img src="qamanager.jpg" alt="Colin Freeman – Quality Assurance Manager">
+            <p>Colin ensures that all products and services meet our quality standards and continuously seeks ways to improve operations.</p>
+        </div>
+        <div class="direct-reports-container">
+            <div class="direct-reports-label">Direct Reports</div>
+            <div class="direct-report">
+                <img src="qa.jpg" alt="Mollie Parker – QA Specialist">
+                <p>Mollie Parker – QA Specialist</p>
+                <p>Conducts quality checks on meals and packaging to maintain standards.</p>
+            </div>
+            <div class="direct-report">
+                <img src="compliance2.jpg" alt="Charlotte Mansur – Compliance Officer">
+                <p>Charlotte Mansur – Compliance Officer</p>
+                <p>Ensures all operations comply with regulations and company policies.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>Want to learn more about our industry? Visit 
+   <a href="https://www.nrn.com/" target="_blank">Nation’s Restaurant News</a> 
+   for foodservice insights.</p>
+
+<p><a href="mailto:management@khaana.com">Contact Page Creator</a></p>
+
+<!-- Updated downloadable link -->
+<p><a href="Khaana_Management_Roles.pdf" download>Download Full Management Roles PDF</a></p>
+
+<footer>
+    <script>
+        document.write("Date Last Modified: " + document.lastModified);
+    </script>
+</footer>
+
+</body>
+</html>
