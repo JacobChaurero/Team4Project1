@@ -2,81 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Khaana -- Your Page Title</title>
+  <title>Khaana -- Products Page</title>
   <style>
-    /* Page styling */
     body {
       background-color: #fefefe;
       font-family: 'Segoe UI', sans-serif;
       font-size: 16px;
-      color: #333;
-      margin: 40px;
+      color: blue;
+      margin: 30px;
     }
-
-    /* Header */
-    header {
-      font-family: 'Georgia', serif;
+    h1 {
+      font-family: Georgia, serif;
       font-size: 22px;
       color: darkgoldenrod;
       text-align: center;
-      margin-bottom: 20px;
     }
-
-    /* Subheading */
     h2 {
+      font-family: Georgia, serif;
       color: goldenrod;
-      text-align: center;
-      font-family: 'Segoe UI', sans-serif;
     }
-
-    /* Paragraph text */
-    p {
-      color: blue;
-      text-align: center;
-      line-height: 1.6;
+    .highlight {
+      color: goldenrod;
+      font-style: italic;
     }
-
-    /* Product list */
-    ul {
-      list-style-type: square;
-      color: darkgoldenrod;
-      font-weight: bold;
-      width: fit-content;
-      margin: 0 auto;
+    .photo {
+      display: block;
+      margin: 20px auto;
+      width: 400px;
+      border: 3px solid darkgoldenrod;
+      border-radius: 6px;
     }
-
-    /* Footer */
     footer {
       font-size: 12px;
+      color: gray;
       text-align: center;
-      color: #888;
-      margin-top: 40px;
+      margin-top: 30px;
     }
   </style>
 </head>
+
 <body>
+  <h1>Khaana Food Products</h1>
+  <h2>Ready-to-Eat Meal Delivery</h2>
 
-  <header>Khaana Food Products</header>
+  <p>
+    <b>Khaana</b> brings you <u>freshly prepared meals</u> delivered right to your door. 
+    Our <i>chef-inspired dishes</i> are crafted from <span class="highlight">locally sourced ingredients</span> and ready to eat in minutes!
+  </p>
 
-  <h2>Ready-to-eat Online Meal Delivery</h2>
+  <img class="photo" src="meal.jpeg" alt="Khaana ready-to-eat meal">
 
-  <p>Welcome to <b>Khaana</b> — your trusted choice for delicious, freshly prepared meals delivered straight to your door! We focus on taste, health, and convenience.</p>
+  <h3>Our Top Products</h3>
+  <ol>
+    <li>Gourmet Sandwiches</li>
+    <li>Signature Salads</li>
+    <li>Hot Meals</li>
+  </ol>
 
+  <h3>Why Customers Love Khaana</h3>
   <ul>
     <li>Locally sourced ingredients</li>
     <li>Eco-friendly packaging</li>
     <li>Customizable meal options</li>
   </ul>
 
+  <p>
+    Explore more about healthy meal options on 
+    <a href="https://www.foodnetwork.com" target="_blank" style="color: darkgoldenrod;">Food Network</a>.
+  </p>
+
+  <p>
+    <a href="Khaana_Menu.pdf" download style="color: goldenrod;">Download Our Menu (PDF)</a>
+  </p>
+
+  <p>
+    <a href="mailto:contact@khaanafoods.com" style="color: darkgoldenrod;">Contact Page Creator</a>
+  </p>
+
   <footer>
-    &copy; 2025 Khaana Food Products <br>
-    Last modified: <span id="date"></span>
+    &copy; 2025 Khaana Food Products<br>
+    <span id="lastModified"></span>
   </footer>
 
   <script>
-    // Display today's date in the footer
-    document.getElementById("date").textContent = new Date().toLocaleDateString();
+    document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
   </script>
-
 </body>
 </html>
