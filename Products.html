@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Khaana -- Your Page Title</title>
+  <style>
+    /* Page styling */
+    body {
+      background-color: #fefefe;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 16px;
+      color: #333;
+      margin: 40px;
+    }
+
+    /* Header */
+    header {
+      font-family: 'Georgia', serif;
+      font-size: 22px;
+      color: darkgoldenrod;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Subheading */
+    h2 {
+      color: goldenrod;
+      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Paragraph text */
+    p {
+      color: blue;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* Product list */
+    ul {
+      list-style-type: square;
+      color: darkgoldenrod;
+      font-weight: bold;
+      width: fit-content;
+      margin: 0 auto;
+    }
+
+    /* Footer */
+    footer {
+      font-size: 12px;
+      text-align: center;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Khaana Food Products</header>
+
+  <h2>Ready-to-eat Online Meal Delivery</h2>
+
+  <p>Welcome to <b>Khaana</b> — your trusted choice for delicious, freshly prepared meals delivered straight to your door! We focus on taste, health, and convenience.</p>
+
+  <ul>
+    <li>Locally sourced ingredients</li>
+    <li>Eco-friendly packaging</li>
+    <li>Customizable meal options</li>
+  </ul>
+
+  <footer>
+    &copy; 2025 Khaana Food Products <br>
+    Last modified: <span id="date"></span>
+  </footer>
+
+  <script>
+    // Display today's date in the footer
+    document.getElementById("date").textContent = new Date().toLocaleDateString();
+  </script>
+
+</body>
+</html>
