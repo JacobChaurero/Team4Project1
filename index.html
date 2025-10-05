@@ -1,14 +1,22 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//3.2">
-<html lang="en-us">
-  <head>
-    <title>
-      Khaana 
-    </title>
-    <meta charset="utf-8">
-  </head>
-
-  <frameset cols="200">
-    <frame src="nav.html">
-    <frame src="team.html">
-  </frameset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khaana Team Page</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Georgia, sans-serif;
+            font-size: 16px;
+            background-color: azure;
+            margin: 0;
+        }
+    </style>
+</head>
+<frameset cols="200,*" frameborder="1">
+    <!-- Left navigation frame -->
+    <frame src="navigation.html" name="navFrame" title="Navigation">
+    
+    <!-- Right content frame -->
+    <frame src="team.html" name="contentFrame" title="Team Home">
+</frameset>
 </html>
